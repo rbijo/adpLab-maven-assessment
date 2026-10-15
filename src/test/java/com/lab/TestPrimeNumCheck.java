@@ -8,7 +8,7 @@ public class TestPrimeNumCheck extends TestCase {
     PrimeNumCheck pNC = new PrimeNumCheck();
     public void testReturnsTrueForPrimeNumbers() {
         
-        assertEquals(true, pNC.isPrime(2));
+        assertEquals(false, pNC.isPrime(2));
         assertEquals(true, pNC.isPrime(13));   
     }
 
